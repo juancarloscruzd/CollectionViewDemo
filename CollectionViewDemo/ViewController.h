@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+static NSString *cellIdentifier = @"MyReuseCellIdentifier";
+
 @interface ViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 
 @property (weak, nonatomic) IBOutlet UICollectionView *uicollectionview;
