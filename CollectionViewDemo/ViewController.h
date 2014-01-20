@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PSTCollectionView.h"
 
 static NSString *cellIdentifier = @"MyReuseCellIdentifier";
 
-@interface ViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
+@interface ViewController : UIViewController <PSUICollectionViewDataSource, PSUICollectionViewDelegateFlowLayout>
 
-@property (weak, nonatomic) IBOutlet UICollectionView *uicollectionview;
+@property (weak, nonatomic) IBOutlet PSUICollectionView *uicollectionview;
 
 @end
