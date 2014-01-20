@@ -1,4 +1,4 @@
 CollectionViewDemo
 ==================
 
-iOS7 CollectionView Demo.
+iOS5 PSTCollectionView Demo.
